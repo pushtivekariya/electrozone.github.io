@@ -1,0 +1,426 @@
+
+@charset"utf-8";
+* {
+    margin: 2;
+    padding: 4;
+    font-family: 'poppins', sans-serif;
+}
+
+#banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), #b3adad), url(homeback1.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    resize: vertical;
+    position: center;
+    margin-left: 47%;
+    padding-top: 20px;
+    padding-bottom: 5px;
+
+}
+
+.banner-text {
+    text-align: center;
+    font-family: cursive;
+    top: 180px;
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+.banner-text h1 {
+    position: center;
+    color: black;
+    text-align: center;
+    font-display: block;
+    letter-spacing: inherit;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 100px;
+    font-size: 70px;
+}
+
+.banner-text p {
+    position: center;
+    color: white;
+    text-align: center;
+    font-display: block;
+    letter-spacing: inherit;
+    margin: 50px auto 0;
+    margin: 0 10px;
+    padding: 12px 0;
+    font-size: 1.5rem;
+    background-color: #000;
+    border-radius: 25px;
+    margin-left: 700px;
+    margin-right: 700px;
+    margin-top: 50px;
+    border-style:groove;
+}
+
+.banner-btn {
+    margin: 20px auto;
+    color: black;
+    margin-top: 100px;
+}
+
+.banner-btn a {
+    margin: 0 5px;
+    padding: 6px 0;
+    color: #000;
+    display: inline-block;
+    text-decoration: none;
+    z-index: 1;
+    border-radius: 20px;
+    transition: color 0.5s;
+    background-color: aliceblue;
+}
+
+.banner-btn span {
+    direction: inherit;
+    animation-direction: alternate;
+    width: 0%;
+    height: 100%;
+    z-index: -1;
+    transition: 0.5s;
+    background: absolute;
+    color: black;
+}
+
+.banner-btn a span {
+    border-radius: 20px;
+}
+
+.banner-btn a:hover {
+    color: white;
+}
+
+.banner-btn a span:hover {
+    background-color: #000;
+    color: aliceblue;
+    border-style:groove;
+}
+
+#sidenav nav ul {
+    display: inline-block;
+    right: 20px;
+    top: 0;
+    background: dimgray;
+    position: fixed;
+    z-index: 1;
+    transition: 0.5s;
+    border-radius: 20px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+#sidenav nav ul li {
+    margin: 0 1rem;
+}
+
+#sidenav nav ul li a {
+    font-size: 2rem;
+    color: #000;
+    background-color: dimgrey;
+    border-radius: 20px;
+}
+
+/*services style */
+
+#services {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), #b3adad), url(homeback1.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+}
+
+#text h1 {
+    font-size: 3rem;
+    margin-top: 20px;
+    background-color: dimgray;
+    border-radius: 40px;
+    margin-right: 1500px;
+    border-style:groove;
+}
+
+#images {
+    margin-top: 50px;
+}
+
+#ser-img1 a img {
+    display: inline-block;
+    height: 43vh;
+    width: 43vh;
+    border-radius: 20px;
+    border-color: black;
+
+}
+
+#ser-img1 a #h1 {
+    font-size: 2rem;
+}
+
+#ser-img1 a #h1:hover {
+    border-radius: 20px;
+    font-size: 1.8rem;
+    background-color: black;
+    color: white;
+}
+
+#ser-img1 .par {
+    font-size: 1.5rem;
+    background-color: dimgray;
+    display: none;
+    border-radius: 20px;
+}
+
+#ser-img2 a img {
+    display: inline-block;
+    height: 43vh;
+    width: 43vh;
+    border-radius: 20px;
+    border-color: black;
+}
+
+#ser-img2 a #h2 {
+    font-size: 2rem;
+}
+
+#ser-img2 a #h2:hover {
+    border-radius: 20px;
+    font-size: 1.8rem;
+    background-color: black;
+    color: white;
+}
+
+#ser-img2 .par {
+    font-size: 1.5rem;
+    background-color: dimgray;
+    display: none;
+    border-radius: 20px;
+}
+
+#ser-img3 a img {
+    display: inline-block;
+    height: 43vh;
+    width: 43vh;
+    border-radius: 20px;
+    border-color: black;
+}
+
+#ser-img3 a #h3 {
+    font-size: 2rem;
+}
+
+#ser-img3 a #h3:hover {
+    border-radius: 20px;
+    font-size: 1.8rem;
+    background-color: black;
+    color: white;
+}
+
+#ser-img3 .par {
+    font-size: 1.5rem;
+    background-color: dimgray;
+    display: none;
+    border-radius: 20px;
+}
+
+#ser-img4 a img {
+    display: inline-block;
+    height: 43vh;
+    width: 43vh;
+    border-radius: 20px;
+    border-color: black;
+}
+
+#ser-img4 a #h4 {
+    font-size: 2rem;
+}
+
+#ser-img4 a #h4:hover {
+    border-radius: 20px;
+    font-size: 1.8rem;
+    background-color: black;
+    color: white;
+}
+
+#ser-img4 .par {
+    font-size: 1.5rem;
+    background-color: dimgray;
+    display: none;
+    border-radius: 20px;
+}
+
+#images {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+/*products style */
+#products{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), #b3adad), url(homeback1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+#img1 {
+       display:flex ;
+       box-sizing:border-box;
+      justify-content: space-around;
+     
+}
+#img1 .img1 a img{
+    display: inline-block;
+    height: 35vh;
+    width: 35vh;
+    border-radius: 20px;
+    border-color: black;
+    
+}
+#img1 .img1  p{
+    
+    color: black;
+    font-size: 2rem;
+    border-radius: 20px;
+}
+#img2 {
+       display:flex ;
+       box-sizing: border-box;
+       justify-content: space-around;
+       box-shadow: #000;
+       
+}
+#img2 .imge1 a img{
+    display: inline-block;
+    height: 35vh;
+    width: 35vh;
+    border-radius: 20px;
+    border-color: black;
+         
+}
+#img2 .imge1  p{
+    color: #000;
+    font-size: 2rem;
+    border-radius: 20px;
+}
+#products #prod-head h1{
+    font-size: 3rem;
+    background-color: dimgray;
+    border-radius: 40px;
+    margin-right: 1500px;
+    border-style:groove;
+}
+/*regestration style */
+
+#regi{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), #b3adad), url(homeback1.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+}
+#regi h1{
+    font-size: 3rem;
+    background-color: dimgray;
+    border-radius: 40px;
+    margin-right: 1500px;
+    border-style:groove;
+}
+#title h1{
+    font-size: 2.5rem;
+    background-color: dimgray;
+    border-radius: 40px;
+    margin-right: 500px;
+    margin-left: 500px;
+}
+#txt{
+    font-size: 1.5rem;
+}
+#frm{
+    background-color:dimgrey;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    border-radius: 20px;
+    border-style:groove;
+}
+#frm #btnsubmit{
+    margin-left: 550px;
+    margin-right: 400px;
+    margin-top: 50px;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    background-color:#fff;
+    color: #000;
+}
+#frm #btnsubmit:hover{
+    color: #fff;
+    background-color:rgba(3, 0, 0, 0.986);
+    border-style:dotted;
+}
+input{
+    border-radius: 20px;
+}
+select{
+    border-radius: 20px;
+}
+/*about us style*/
+#about{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.3), #b3adad), url(homeback1.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+}
+center #first{
+    font-size: 4rem;  
+    margin-top: 100px;  
+}
+center #second{
+    font-size: 4rem;
+}
+#whatsapp{
+    margin-top: 100px;
+    font-size: 30px;
+    margin-left: 40px;
+}
+#instagram{
+    margin-top: 15px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+#open{
+    margin-top: 15px;
+    margin-left: 40px;
+    font-size: 25px;
+}
+#twitter{
+    margin-top: 15px;
+    font-size: 30px;
+   margin-left: 40px;
+}
+#gmail{
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 1400px;
+    
+}
+#right #location{
+    font-size: 30px;
+    margin-left: 1400px;
+    display: inline-block;
+}
